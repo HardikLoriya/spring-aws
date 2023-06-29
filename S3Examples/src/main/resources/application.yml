@@ -1,13 +1,13 @@
 cloud:
   aws:
     region:
-      static: us-east-1
+      static: <aws-region>
       auto: false
     stack:
       auto: false
     credentials:
-      access-key: AKIAXYD3MMNS4CM3EK23
-      secret-key: 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
+      access-key: <access-key>
+      secret-key: <secret-key>
 
 spring.main.allow-bean-definition-overriding: true
 
